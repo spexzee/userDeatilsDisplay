@@ -45,7 +45,7 @@ const App: React.FC = () => {
     <div className="app-container">
       <h1 style={{textAlign:'center', color:'white'}}>User Search</h1>
       <UserSearch />
-      <div>
+      <div className="test-div">
       <button onClick={handleShowCode} data-testid="show-code-button" className="show-code-button">
         {showCode ? 'Hide Test Case Code' : 'Show Test Case Code'}
       </button>
