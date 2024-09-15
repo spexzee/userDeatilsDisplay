@@ -45,9 +45,11 @@ const App: React.FC = () => {
     <div className="app-container">
       <h1 style={{textAlign:'center', color:'white'}}>User Search</h1>
       <UserSearch />
+      <div>
       <button onClick={handleShowCode} data-testid="show-code-button" className="show-code-button">
         {showCode ? 'Hide Test Case Code' : 'Show Test Case Code'}
       </button>
+        </div>
 
       {showCode && (
         <pre data-testid="test-case-code" className="test-case-code">
