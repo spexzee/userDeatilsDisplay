@@ -138,4 +138,7 @@
     border-radius: 5px;
     overflow-x: auto;
   }
-  
+  .test-div{
+      display: flex;
+    justify-content: center;
+  }
