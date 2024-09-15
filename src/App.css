@@ -108,3 +108,34 @@
     margin: 4px 0;
   }
   
+
+  .app-container {
+    padding: 20px;
+    background-color: #000;
+    color: #000000;
+    font-family: Arial, sans-serif;
+  }
+  
+  .show-code-button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #008cba;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .show-code-button:hover {
+    background-color: #005f8b;
+  }
+  
+  .test-case-code {
+    background-color: #222;
+    color: #0f0;
+    padding: 15px;
+    margin-top: 10px;
+    white-space: pre-wrap;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
